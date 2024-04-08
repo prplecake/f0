@@ -1,3 +1,6 @@
 [submodule "subghz/apps/tpms"]
 	path = subghz/apps/tpms
 	url = https://github.com/prplecake/flipperzero-tpms
+[submodule "utilities/FZEasyMarauderFlash"]
+	path = utilities/FZEasyMarauderFlash
+	url = https://github.com/prplecake/FZEasyMarauderFlash
