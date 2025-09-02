@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     name: 'ufbt: Build for ${{ matrix.sdk-version }} Branch'
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Build with ufbt
         uses: flipperdevices/flipperzero-ufbt-action@v0.1
         id: build-app
