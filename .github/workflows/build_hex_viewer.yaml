@@ -31,7 +31,7 @@ jobs:
           sdk-channel: ${{ matrix.sdk-version }}
           app-dir: tools/apps/hex_viewer
       - name: Upload app artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: "flipperzero-hex_viewer-${{ matrix.sdk-version }}-${{ steps.build-app.outputs.suffix }}"
           path: ${{ steps.build-app.outputs.fap-artifacts }}
